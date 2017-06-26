@@ -13,7 +13,7 @@ function displayAthleteInfo() {
       console.log(this);
       // Constructing a queryURL using the athlete name
       var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
-        "athlete" + "&api_key=77b907aff3e64d0c9c6363e3c6e72aee&limit=10";
+        athlete + "&api_key=77b907aff3e64d0c9c6363e3c6e72aee&limit=10";
 
       // Perfoming an AJAX GET request to our queryURL
       $.ajax({
